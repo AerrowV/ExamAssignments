@@ -12,7 +12,7 @@ public class Garden {
         this.plants.add(p);
     }
 
-    public float getTotalYield() {
+    public float getTotalAverageYield() {
         float totalYield = 0;
         for (Plant p : plants) {
             if (p instanceof FruitTree) {

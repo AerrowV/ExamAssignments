@@ -31,7 +31,7 @@ public class Main {
         garden.addPlant(flower2);
         garden.addPlant(flower3);
 
-        System.out.println("\n" + "The total yield of all fruit trees in this garden is: " + garden.getTotalYield() + "kg");
+        System.out.println("\n" + "The total average yield of all fruit trees in this garden is: " + garden.getTotalAverageYield() + "kg");
 
         garden.displayFlowersOfColor("Yellow");
 
