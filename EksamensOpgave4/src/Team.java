@@ -20,7 +20,7 @@ public class Team implements Player{
 
     @Override
     public double addPoints(double points) {
-        double playerPoints = points / players.size();
+        double playerPoints = getPoint() / players.size();
         for (Player player : players) {
             player.addPoints(playerPoints);
         }

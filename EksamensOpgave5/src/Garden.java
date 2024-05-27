@@ -54,7 +54,7 @@ public class Garden {
 
 
     public Plant getOldestPlant() {
-        Plant oldestPlant = plants.get(0);
+        Plant oldestPlant = plants.getFirst();
         for (Plant p : plants) {
             if (p.getDatePlanted().isBefore(oldestPlant.getDatePlanted())) {
                 oldestPlant = p;
