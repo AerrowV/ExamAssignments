@@ -17,6 +17,7 @@ class Library {
 
     public void borrowBook(Book book, User user) {
         if (books.contains(book) && !book.isBorrowed()) {
+            book.setBorrowed(true);
             user.borrowBook(book);
         }
     }

@@ -3,11 +3,10 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        StandardPlayer player1 = new StandardPlayer("Karl");
-        StandardPlayer player2 = new StandardPlayer("Carl");
-
-        JuniorPlayer player3 = new JuniorPlayer("Daryl");
-        JuniorPlayer player4 = new JuniorPlayer("Daniel");
+        Player player1 = new StandardPlayer("Karl");
+        Player player2 = new StandardPlayer("Carl");
+        Player player3 = new JuniorPlayer("Daryl");
+        Player player4 = new JuniorPlayer("Daniel");
 
         ArrayList<Player> teamPlayers = new ArrayList<>();
         teamPlayers.add(player1);

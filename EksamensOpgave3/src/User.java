@@ -25,7 +25,6 @@ class User {
 
     public void borrowBook(Book book) {
         if (!book.isBorrowed()) {
-            book.setBorrowed(true);
             getBorrowedBooks().add(book);
         }
     }

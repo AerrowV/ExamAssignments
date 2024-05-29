@@ -30,7 +30,7 @@ public class DrivingAllowance {
             continueRegistration = scanner.nextLine();
 
         } catch (Exception e) {
-                System.out.println("Try again mister/missus. ex: [1,3]");
+                System.out.println("Try again mister/missus. ex: '1,3'");
             }
         }
         System.out.println("Thank you for your help! " + totalPayment + "kr will be deposited into your account.");
